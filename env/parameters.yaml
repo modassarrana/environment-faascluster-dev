@@ -1,0 +1,14 @@
+adminUser:
+  password: local:faas/adminUser:password
+  username: admin
+docker:
+  password: local:faas/docker:password
+  url: https://apro.nbnco.net.au/clna-prototype-generic
+  username: modassarrana
+enableDocker: true
+pipelineUser:
+  email: modassarrana@nbnco.com.au
+  token: local:faas/pipelineUser:token
+  username: modassarrana
+prow:
+  hmacToken: local:faas/prow:hmacToken
